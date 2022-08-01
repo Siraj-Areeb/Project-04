@@ -23,7 +23,8 @@
     align-items: center;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 200; 
+    font-size: 18px;
+    font-weight: 300; 
 }
 .nav-button{
     padding: 13px 30px;
