@@ -4,7 +4,7 @@ Digital Marketing home page
 
 Static webpage for a Digital Marketing Firm
 
-Hands-on Experince:
+Hands-on Experience:
 - Introduction of Flexbox
 - Nav bar styling
 - Buttons
