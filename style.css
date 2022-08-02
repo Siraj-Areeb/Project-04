@@ -1,50 +1,73 @@
 .container{
     padding-top: 30px;
 }
+
 .navbar-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
+
+.grow-list{
+    margin-left: -170px;
+}
+
 .list{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    position: relative;
-    right: 190px;
-
-    
 }
+
 .list-item{
     padding: 20px 20px;
     align-items: center;
     font-family: 'Poppins';
-    font-style: normal;
     font-size: 18px;
     font-weight: 300; 
+    opacity: 80%;
 }
+
+.list-item:hover{
+    font-weight: 500;
+    transition: .5s;
+}
+
 .nav-button{
     padding: 13px 30px;
     border-radius: 0.5em;
+    font-size: 15px;
     background-color: #5955B3;
     color: #FFFFFF;
     border: none;
 }
+
+.nav-button:hover{
+    font-size: 17px;
+    color: #1f1f1f;
+    transition: .5s;
+    font-weight: 500;
+    transition: .5s;
+}
+
 .banner-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 80px;
 }
+
 .banner-container > div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 500px;
 }
+
 .heading-text{
     font-family: 'Poppins';
     font-style: normal;
@@ -53,6 +76,7 @@
     color: #3C2F60;
     line-height: 80px;
 }
+
 img[alt~="illustration"]{
     width: 750px;
     height: 600px;
@@ -60,24 +84,21 @@ img[alt~="illustration"]{
     right: 250px;
     top: 20px;
 }
+
 div h1 span{
     color: #5955B3;
 }
+
 .description{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 250;
+    font-weight: 300;
     font-size: 20px;  
     position: relative;
     bottom: 35px;
+    opacity: 90%;
 }
-.nav-button{
-    width: 190px;
-    height: 60px;
-    font-size: 15px;
-    font-weight: 100;
-}
-.nav-button:hover{
-background-color: #8D3DAF;
-transition-duration: 0.6s;
+
+.banner-container>div>button{
+    width: 200px;
 }
